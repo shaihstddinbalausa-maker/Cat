@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мысықтар Әлемі — Сіздің Сүйікті Үй Жануарыңыз</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">🐱 МысықӘлемі</div>
+        <nav>
+            <ul>
+                <li><a href="#about">Мысықтар туралы</a></li>
+                <li><a href="#breeds">Тұқымдары</a></li>
+                <li><a href="#facts">Қызықты деректер</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Мысықтар әлеміне қош келдіңіз!</h1>
+        <p>Бұл жерде сіз мысықтардың күтімі, тұқымдары мен қызықты мінез-құлықтары туралы бәрін біле аласыз.</p>
+        <button id="meowBtn" onclick="makeMeow()">Мяу деу! 🐾</button>
+    </section>
+
+    <section id="about" class="container">
+        <h2>Неліктен мысықтарды жақсы көреміз?</h2>
+        <p>Мысықтар — ең танымал үй жануарларының бірі. Олар өздерінің тәуелсіздігімен, сүйкімділігімен және үйде жайлы атмосфера сыйлайтынымен ерекшеленеді.</p>
+    </section>
+
+    <section id="breeds" class="container">
+        <h2>Танымал мысық тұқымдары</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=500" alt="Британдық мысық">
+                <h3>Британдық қысқа жүн ді</h3>
+                <p>Сабырлы, салмақты және достық суытпайтын сүйкімді мысықтар.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=500" alt="Мейн-кун">
+                <h3>Мейн-кун</h3>
+                <p>Үлкен көлемді, бірақ өте мейірімді "алып" мысықтар.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=500" alt="Сиам мысығы">
+                <h3>Сиам мысығы</h3>
+                <p>Белсенді, ақылды және көк көзді ерекше тұқым.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="facts" class="container">
+        <h2>Мысықтар туралы қызықты дерек</h2>
+        <div class="fact-box">
+            <p id="factText">Түймені басып, мысықтар туралы жаңа дерек біліңіз!</p>
+            <button onclick="getCatFact()">Жаңа дерек алу 🎲</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Мысықтар Әлемі. Барлық құқықтар қорғалған. 🐾</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
